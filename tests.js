@@ -6,7 +6,7 @@
 window.TESTS = {
   b5: {
     id: "b5",
-    title: "Tes KemampuanAnalisa",
+    title: "Tes Kemampuan Analisa",
     minutes: 30,
     items: [
       // Skala 1-5: Sangat Tidak Setuju ... Sangat Setuju
@@ -31,12 +31,12 @@ window.TESTS = {
       {type:"likert5", prompt:"Saya merencanakan pekerjaan sebelum memulai.", trait:"C"},
       {type:"likert5", prompt:"Saya stabil secara emosional (jarang tersulut).", trait:"N-", reverse:true},
       {type:"likert5", prompt:"Saya terbuka terhadap perspektif yang berbeda.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
-      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"A"}
+      {type:"likert5", prompt:"Saya terbuka terhadap gagasan baru.", trait:"E"}
+      {type:"likert5", prompt:"Saya terbuka terhadap ide bagus.", trait:"C"}
+      {type:"likert5", prompt:"Saya menyenangkan terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya suka.", trait:"A"}
+      {type:"likert5", prompt:"Saya akan melaksanakan.", trait:"E"}
     ]
   },
   num: {
