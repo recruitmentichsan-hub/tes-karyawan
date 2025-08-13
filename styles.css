@@ -1,0 +1,30 @@
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#0b1020;color:#e9ecf1}
+.container{max-width:900px;margin:32px auto;padding:0 16px}
+header{margin-bottom:16px}
+h1{margin:0 0 4px}
+.subtitle{margin:4px 0 0;color:#a7b0bf}
+.card{background:#121a35;border:1px solid #243056;border-radius:14px;padding:20px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:8px 0 16px}
+label{display:flex;flex-direction:column;font-weight:600;font-size:14px;gap:6px}
+input,select,textarea{background:#0e1630;color:#e9ecf1;border:1px solid #2b3a63;border-radius:10px;padding:10px;font-size:14px;outline:none}
+input:focus{border-color:#5c8dff;box-shadow:0 0 0 3px rgba(92,141,255,.15)}
+.check{display:flex;align-items:center;gap:10px;margin:6px 0;font-weight:500}
+.check input{width:18px;height:18px}
+.actions{display:flex;gap:10px;margin-top:16px}
+button{background:#5c8dff;border:none;border-radius:10px;padding:12px 16px;font-size:15px;font-weight:700;color:#0b1020;cursor:pointer}
+button.secondary{background:transparent;color:#e9ecf1;border:1px solid #2b3a63}
+button:disabled{opacity:.6;cursor:not-allowed}
+.hidden{display:none}
+footer{margin:24px 0 40px;color:#8fa3c7;text-align:center}
+.progress{width:100%;height:8px;background:#0e1630;border:1px solid #243056;border-radius:999px;overflow:hidden;margin-top:8px}
+#progressBar{height:100%;width:0%;background:#5c8dff}
+.test-header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-bottom:12px}
+.timer{font-variant-tabular-nums:tabular-nums;background:#0e1630;border:1px solid #2b3a63;border-radius:10px;padding:8px 12px}
+.q{margin:8px 0 16px;padding:16px;border:1px solid #2b3a63;border-radius:10px;background:#0e1630}
+.q h4{margin:0 0 8px}
+.q .opts{display:flex;flex-direction:column;gap:6px}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#1a2447;border:1px solid #2b3a63;font-size:12px;color:#c8d5f0;margin-left:8px}
+.tiny{color:#9fb0cf;font-size:12px}
+kbd{background:#0e1630;border:1px solid #2b3a63;border-radius:6px;padding:2px 6px}
