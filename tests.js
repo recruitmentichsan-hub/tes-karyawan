@@ -6,8 +6,8 @@
 window.TESTS = {
   b5: {
     id: "b5",
-    title: "Kepribadian (DiSC)",
-    minutes: 20,
+    title: "Tes KemampuanAnalisa",
+    minutes: 30,
     items: [
       // Skala 1-5: Sangat Tidak Setuju ... Sangat Setuju
       // Trait: E (Extraversion), A (Agreeableness), C (Conscientiousness), N (Neuroticism / Emotional Stability-), O (Openness)
@@ -31,6 +31,11 @@ window.TESTS = {
       {type:"likert5", prompt:"Saya merencanakan pekerjaan sebelum memulai.", trait:"C"},
       {type:"likert5", prompt:"Saya stabil secara emosional (jarang tersulut).", trait:"N-", reverse:true},
       {type:"likert5", prompt:"Saya terbuka terhadap perspektif yang berbeda.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
+      {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
       {type:"likert5", prompt:"Saya terbuka terhadap kesempatan baru.", trait:"O"}
     ]
   },
